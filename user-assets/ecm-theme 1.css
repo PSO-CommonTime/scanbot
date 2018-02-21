@@ -1,0 +1,79 @@
+html {
+
+    /* FONTS */
+    --default-font-family: "Roboto", "Open Sans", Arial, Helvetica, sans-serif;
+    --default-font-color: #333536;
+    --default-font-color-light: #9d9d9d;
+    --default-placeholder-color: #a8a8a8;
+
+    /* BACKGROUND */
+    --default-bg-color: white;
+    --default-bg-color-light: white;
+    --default-bg-color-dark: #f5f5f5;
+
+    /* BORDERS */
+    --default-border-color: #d9d9d9;
+
+    /* COLOURS */
+    --primary-color: #25559f;
+    --primary-color-font: white;
+
+    --secondary-color: #3665af;
+    --secondary-color-font: white;
+
+    --accent-color-one: #59bdac;
+    --accent-color-one-font: white;
+    --accent-color-two: #ff974f;
+    --accent-color-two-font: white;
+    --accent-color-three: #f0c825;
+    --accent-color-three-font: white;
+
+    --app-success-button-color: #189883;
+    --app-success-button-color-font: white;
+
+    --app-danger-button-color: #f04747;
+    --app-danger-button-color-font: white;
+
+    /* BUTTONS */
+    --app-primary-button-color: var(--primary-color);
+    --app-primary-button-font: var(--primary-color-font);
+
+    --app-login-button-color: transparent;
+    --app-login-button-font: var(--primary-color-font);
+    --app-login-button-border: var(--primary-color-font);
+}
+
+html[theme="dark"] {
+
+    /**********************
+        DARK THEME
+    **********************/
+
+    /* FONTS */
+    --default-font-color: #fff;
+    --default-font-color-light: #9d9d9d;
+    --default-placeholder-color: #99AAB5;
+
+    /* BACKGROUND */
+    --default-bg-color: #36393e;
+    --default-bg-color-dark: #2f3136;
+    --default-bg-color-light: #484b52;
+
+    /* BORDERS */
+    --default-border-color: #484b52;
+
+    /* COLOURS */
+    --primary-color: #0079ff;
+
+    /* BUTTONS */
+    --button-secondary-bg: #484b52;
+    --button-secondary-border: 1px solid #000;
+    --button-secondary-text: #fff;
+
+    /* FORMS */
+    --default-disabled-input-bg-color: var(--default-bg-color-dark);
+}
+
+body {
+    overflow: hidden;
+}
