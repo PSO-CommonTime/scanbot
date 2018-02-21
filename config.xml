@@ -94,6 +94,7 @@
             <preference name="nativeMaxNumberOfLogFiles" value="5"/>
             <plugin name="cordova-plugin-email" spec="1.2.6"/>
             <plugin name="cordova-android-crosswalk-webview" spec="https://github.com/commontime/cordova-plugin-crosswalk-webview#2.3.0"/>
+            <plugin name="cordova-plugin-phonedialer" spec="0.3.1"/>
         <!--Custom Plugins:-->
         <!--End of Custom Plugins:-->
             <config-file platform="android" parent="/manifest/application" mode="add">
